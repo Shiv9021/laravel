@@ -1,6 +1,6 @@
 <?php
 include ('dbconnect.php');
-
+hiii
     $data=stripcslashes(file_get_contents("php://input"));
     //json_decode are use to convert json object to php object or array if true is associative array.
     $mydata=json_decode($data,true);
